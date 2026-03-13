@@ -29,8 +29,6 @@ wheels/
 venv/
 ENV/
 
-# Reflex
-.web/
 
 # IDEs
 .vscode/
@@ -47,7 +45,6 @@ Thumbs.db
 .env.*
 
 # Local Data / Logs
-data/
 doc/
 *.db
 *.log
