@@ -51,7 +51,7 @@ canvas_result = st_canvas(
     height=280,
     width=280,
     drawing_mode="freedraw",
-    update_streamlit=False,
+    update_streamlit=True,
     key="canvas",
 )
 
