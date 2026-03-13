@@ -7,7 +7,7 @@ from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 from m17_model import MnistModel
 
-APP_VERSION = "0004"
+APP_VERSION = "0005"
 
 # ── 경로 설정 ────────────────────────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,7 +29,7 @@ st.title("✏️ 손글씨 숫자 인식기")
 st.markdown(
     "아래 캔버스에 **0~9 숫자**를 마우스로 그린 뒤 결과를 확인하세요.\n\n"
     "- 검정 배경에 하얀 선으로 그립니다.\n"
-    "- 그림 도구·선 굵기를 사이드바에서 조절할 수 있습니다.\n"
+    "- 그림 도구·선 굵기를 사이드바에서 조절할 수 있습니다.\n\n"
     f" ver {APP_VERSION}"
 )
 
